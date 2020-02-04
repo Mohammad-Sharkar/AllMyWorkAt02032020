@@ -1,0 +1,51 @@
+package javaoop;
+
+public class bankAccount {
+
+	
+	
+	
+	String accountName;
+	String accountEmail;
+	String userName;
+	String password;
+	
+	
+	
+	
+	int moneyDeposited;
+	private Object accountNumber;
+	static int numberofuser;
+	
+	
+	public bankAccount (int accountnumber) {
+		
+	this.accountNumber=accountNumber;	
+		
+	}
+	
+	public void depositMoney() {
+	System.out.println("object with no consturctor");	
+	
+	
+	
+		
+	}
+	
+	
+	public void withDrawmoney() {
+		
+		
+		
+	}
+	
+	
+	public void transforMoney() {
+		
+	}
+	
+	public void changeAccountEmail()  {
+		
+		
+	}
+}

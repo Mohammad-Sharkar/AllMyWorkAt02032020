@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [data driven testing for login]">
+  <parameter name="password" value="Basanta1234@@"/>
+  <parameter name="username" value="bob"/>
+  <test name="mercury login test(failed)">
+    <parameter name="password" value="Basanta1234@@"/>
+    <parameter name="username" value="bob"/>
+    <classes>
+      <class name="TestScript.mercurryregisterScript">
+        <methods>
+          <include name="afterTest1"/>
+          <include name="setupTest"/>
+          <include name="clicksubmitButton"/>
+        </methods>
+      </class> <!-- TestScript.mercurryregisterScript -->
+    </classes>
+  </test> <!-- mercury login test(failed) -->
+</suite> <!-- Failed suite [data driven testing for login] -->

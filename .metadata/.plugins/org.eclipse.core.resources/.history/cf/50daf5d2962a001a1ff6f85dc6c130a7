@@ -1,0 +1,58 @@
+package TestScript;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+
+import pageObjectRepository.mercuryregisterPages;
+import pageObjectRepository.phptravelsPages;
+
+public class phptravelsScript {
+
+	
+	
+		
+		WebDriver driver;
+	
+		phptravelsPages pt;
+		
+		
+
+		@BeforeTest
+		
+		public void setupTest() {
+		
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Basanta Poudel\\Desktop\\Selenium Test\\chromedriver.exe");
+			
+			
+		 	 
+		 	driver = new ChromeDriver();
+		 	pt = new  phptravelsPages(driver);
+		 
+		 	driver.manage().window().maximize();
+		 
+			driver.manage().deleteAllCookies();
+			driver.manage().timeouts().pageLoadTimeout(40,TimeUnit. SECONDS);
+			 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			 
+			 driver.navigate().to("http://newtours.demoaut.com/mercuryregister.php");
+			
+			Thread.sleep(2000); 
+
+			
+			
+			
+	}	
+			
+			
+			
+	
+		
+	
+		}
+	
+
+}
+

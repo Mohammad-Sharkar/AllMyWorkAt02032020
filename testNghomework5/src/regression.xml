@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name= "Regression Test for 12.2 sprint">
+<test name="Test  mercurry">
+
+
+<classes>
+
+<class name ="TestScript.phptravelsScript"></class>
+
+
+</classes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>

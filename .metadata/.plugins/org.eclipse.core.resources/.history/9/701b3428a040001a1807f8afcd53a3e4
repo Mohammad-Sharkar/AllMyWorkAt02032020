@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name= "data diven testing for login">
+<test name="mercurry login test">
+<parameter name ="username"  value= "bob"/>
+<parameter name ="password"  value= "Test1234@@"/>
+<classes>
+
+<class name ="TestScript.automationPraticeScript"></class>
+
+
+</classes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>

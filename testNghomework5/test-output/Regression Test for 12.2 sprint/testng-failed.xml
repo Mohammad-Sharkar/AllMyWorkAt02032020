@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test for 12.2 sprint]">
+  <test name="Test  mercurry(failed)">
+    <classes>
+      <class name="TestScript.phptravelsScript">
+        <methods>
+          <include name="afterTest1"/>
+          <include name="setupTest"/>
+          <include name="fillTheform"/>
+        </methods>
+      </class> <!-- TestScript.phptravelsScript -->
+    </classes>
+  </test> <!-- Test  mercurry(failed) -->
+</suite> <!-- Failed suite [Regression Test for 12.2 sprint] -->

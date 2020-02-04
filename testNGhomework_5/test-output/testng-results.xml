@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18964" started-at="2020-01-08T19:11:35 EST" finished-at="2020-01-08T19:11:54 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18964" started-at="2020-01-08T19:11:35 EST" finished-at="2020-01-08T19:11:54 EST">
+      <class name="TestPages.murcarryRegister">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:TestPages.murcarryRegister@6b09bb57]" name="setupTest" is-config="true" duration-ms="18467" started-at="2020-01-08T19:11:35 EST" finished-at="2020-01-08T19:11:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:TestPages.murcarryRegister@6b09bb57]" name="validateTitle" duration-ms="40" started-at="2020-01-08T19:11:54 EST" finished-at="2020-01-08T19:11:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="validateUrl()[pri:0, instance:TestPages.murcarryRegister@6b09bb57]" name="validateUrl" duration-ms="15" started-at="2020-01-08T19:11:54 EST" finished-at="2020-01-08T19:11:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+        <test-method status="PASS" signature="validatecontactInformation()[pri:0, instance:TestPages.murcarryRegister@6b09bb57]" name="validatecontactInformation" duration-ms="331" started-at="2020-01-08T19:11:54 EST" finished-at="2020-01-08T19:11:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecontactInformation -->
+        <test-method status="PASS" signature="validatelastName()[pri:0, instance:TestPages.murcarryRegister@6b09bb57]" name="validatelastName" duration-ms="53" started-at="2020-01-08T19:11:54 EST" finished-at="2020-01-08T19:11:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelastName -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:TestPages.murcarryRegister@6b09bb57]" name="quitTest" is-config="true" duration-ms="1" started-at="2020-01-08T19:11:54 EST" finished-at="2020-01-08T19:11:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- TestPages.murcarryRegister -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

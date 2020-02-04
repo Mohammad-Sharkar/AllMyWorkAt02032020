@@ -1,0 +1,9 @@
+package javaoop;
+
+public class EmployeeData {
+
+	private int ssn;
+	
+	private String empName;
+	private int empAge;
+}

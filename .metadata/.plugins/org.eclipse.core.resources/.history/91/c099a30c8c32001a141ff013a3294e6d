@@ -1,0 +1,139 @@
+package TestScript;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+import pageObjectRepository.mercuryregisterPages;
+import pageObjectRepository.phptravelsPages;
+
+public class mercurryregisterScript {
+
+	
+	WebDriver driver;
+	
+	mercuryregisterPages  sd;
+	
+	
+	@BeforeTest
+	
+
+		public void setupTest() throws InterruptedException {
+			
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Basanta Poudel\\Desktop\\Selenium Test\\chromedriver.exe");
+			
+			
+		 	 
+		 	driver = new ChromeDriver();
+		 	sd = new  mercuryregisterPages(driver);
+		 
+		 	driver.manage().window().maximize();
+		 
+			driver.manage().deleteAllCookies();
+			driver.manage().timeouts().pageLoadTimeout(40,TimeUnit. SECONDS);
+			 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			 
+			 driver.navigate().to("http://newtours.demoaut.com/mercuryregister.php");
+			
+			Thread.sleep(2000); 
+
+	}	
+			
+			
+			
+	
+	
+	
+	
+	 
+	 
+			
+	@Test (priority = 1)
+	public void validateUrl(){
+		String url= driver.getCurrentUrl();
+		System.out.println(url);
+		
+		Assert.assertEquals("http://newtours.demoaut.com/mercuryregister.php", "http://newtours.demoaut.com/mercuryregister.php");
+		
+	
+		
+		
+		
+		
+	
+		
+		}
+			@Test( priority = 2)
+	
+			public void validateTitle() {
+				String title= driver.getTitle();
+				System.out.println(title);	
+	Assert.assertEquals("Register: Mercury Tours","Register: Mercury Tours" );
+	
+			}
+	
+	
+	@Test (priority = 3)
+	
+	public void fillTheForm() throws InterruptedException {
+	
+		sd.firstName().sendKeys("John");
+		
+	    sd.lastName().sendKeys("Sharma");
+	    
+	    sd.phoneNumber().sendKeys("2246437766");
+	   
+	    sd.email().sendKeys("johnsharma@gmail.com");
+	    
+	    sd.address1().sendKeys("8500 New Hampshire Ave");
+	    
+	    sd.address2().sendKeys("Apt 201");
+	    
+	    sd.city().sendKeys("Silver Spring");
+	    
+	    
+	    sd.state().sendKeys("Maryland");
+	 
+	    sd.postalCode().sendKeys("20011");
+	    
+	    
+	    sd.country().sendKeys("United States");
+	    
+	    sd.userName().sendKeys("johnsharma@gmail.com");
+	    
+	    
+	    sd.password().sendKeys("john@#!@#");
+	    
+	    sd.confirmpass().sendKeys("john@#!@#");
+	    
+	    Thread.sleep(2000);
+	}
+	
+	   @Test(priority = 4) 
+	    public void clicksubmitButton() {
+		   
+		   sd.submitButton().click();
+		   
+	   } 
+		  
+	   @AfterTest
+		
+		public void afterTest1() throws InterruptedException {
+
+driver.quit();
+Thread.sleep(2000);   
+		   
+	}
+	
+	
+	
+	
+	
+	
+}
+	

@@ -1,0 +1,10 @@
+package basicJav;
+
+public class javaCode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

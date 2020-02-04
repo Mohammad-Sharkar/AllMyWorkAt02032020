@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18034" started-at="2020-01-28T02:07:17Z" finished-at="2020-01-28T02:07:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18034" started-at="2020-01-28T02:07:17Z" finished-at="2020-01-28T02:07:35Z">
+      <class name="TestScript.mercurryregisterScript">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:TestScript.mercurryregisterScript@402f32ff]" name="setupTest" is-config="true" duration-ms="7293" started-at="2020-01-27T21:07:17Z" finished-at="2020-01-27T21:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="validateUrl()[pri:1, instance:TestScript.mercurryregisterScript@402f32ff]" name="validateUrl" duration-ms="56" started-at="2020-01-27T21:07:25Z" finished-at="2020-01-27T21:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+        <test-method status="PASS" signature="validateTitle()[pri:2, instance:TestScript.mercurryregisterScript@402f32ff]" name="validateTitle" duration-ms="16" started-at="2020-01-27T21:07:25Z" finished-at="2020-01-27T21:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="fillTheForm()[pri:3, instance:TestScript.mercurryregisterScript@402f32ff]" name="fillTheForm" duration-ms="6004" started-at="2020-01-27T21:07:25Z" finished-at="2020-01-27T21:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheForm -->
+        <test-method status="FAIL" signature="clicksubmitButton()[pri:4, instance:TestScript.mercurryregisterScript@402f32ff]" name="clicksubmitButton" duration-ms="1509" started-at="2020-01-27T21:07:31Z" finished-at="2020-01-27T21:07:32Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at TestScript.mercurryregisterScript.clicksubmitButton(mercurryregisterScript.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksubmitButton -->
+        <test-method status="PASS" signature="afterTest1()[pri:0, instance:TestScript.mercurryregisterScript@402f32ff]" name="afterTest1" is-config="true" duration-ms="3139" started-at="2020-01-27T21:07:32Z" finished-at="2020-01-27T21:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest1 -->
+      </class> <!-- TestScript.mercurryregisterScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

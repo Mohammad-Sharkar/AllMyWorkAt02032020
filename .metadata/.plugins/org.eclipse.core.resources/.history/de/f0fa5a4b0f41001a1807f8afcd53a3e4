@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name= "data driven testing for login">
+<test name="mercury login test">
+<parameter name = "username" value= "bob"/>
+
+<classes>
+
+<class name ="TestScript.phptravelsScript"></class>
+
+
+</classes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>
