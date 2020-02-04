@@ -12,8 +12,6 @@ import cucumber.api.java.en.When;
 import pages.mercuryPage;
 import pages.signupPage;
 
-//Hi I am changing here
-
 public class mercurydef {
 
 	WebDriver driver;
